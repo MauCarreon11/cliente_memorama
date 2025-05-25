@@ -20,8 +20,8 @@ const router = createRouter({
       component: () => import('../views/ScoreView.vue'),
     },
     {
-      path: '/rank',
-      name: 'rank',
+      path: '/leaderboard',
+      name: 'leaderboard',
       component: () => import('../views/RankView.vue'),
     },
   ],
