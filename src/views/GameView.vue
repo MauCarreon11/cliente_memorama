@@ -6,7 +6,7 @@ import { useGameStore } from '@/stores/game.js';
 const router = useRouter();
 const gameStore = useGameStore();
 
-const numCards = ref(0);
+const numCards = ref(0);   //Variables reactivas
 const numColumns = ref(0);
 const pokemons = ref([]);
 const selectedCards = ref([]);
@@ -21,7 +21,7 @@ const difficultyMap = {
   Dificil: { cards: 30, columns: 6 }
 };
 
-const regionRanges = {
+const regionRanges = {  //Arreglo de rangos de ID de regiones
   Kanto: [1, 151],
   Johto: [152, 251],
   Hoenn: [252, 386],

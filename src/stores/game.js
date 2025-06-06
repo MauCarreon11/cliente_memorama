@@ -68,7 +68,7 @@ export const useGameStore = defineStore('game', {//Store que sirve para almacena
 
       this.counter = 0;
       this.time = 0;
-      this.userName = savedUserName;
+      this.userName = savedUserName;   //Guarda el usuario, región y dificultad para que no se pierdan al reiniciar el juego
       this.region = savedRegion;
       this.difficulty = savedDifficulty;
     }
